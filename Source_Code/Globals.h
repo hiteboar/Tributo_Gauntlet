@@ -46,6 +46,6 @@ if (x != nullptr)\
 #define MENUFILE_PATH "images/menu.png"
 #define LEVEL1_PATH "Levels/Level1.dat"
 
-#define FPS 40
+#define FPS 30
 
 #endif

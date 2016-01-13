@@ -14,6 +14,11 @@ enum enemy_type;
 
 class Enemy {
 
+private: 
+
+#define IA_SPEED_PER_SECOND 10
+	Timer ia_time;
+
 protected:
 	int health;
 
@@ -64,10 +69,13 @@ public:
 	virtual ~Enemy(){};
 
 	void Move(){
-		int y = abs(game->player->pos.y - pos.y);
-		int x = abs(game->player->pos.x - pos.x);
-		if (y <= SCREEN_HEIGHT * 2 / 3 && x <= SCREEN_WIDTH / 2){
-			Continue();
+		if (ia_time.getTime() > 1000 / IA_SPEED_PER_SECOND){
+			int y = abs(game->player->pos.y - pos.y);
+			int x = abs(game->player->pos.x - pos.x);
+			if (y <= SCREEN_HEIGHT * 2 / 3 && x <= SCREEN_WIDTH / 2){
+				Continue();
+			}
+			ia_time.restart(); 
 		}
 	};
 	
