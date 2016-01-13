@@ -1,0 +1,200 @@
+﻿Compilación iniciada a las 13/01/2016 19:44:27.
+     1>Proyecto "D:\WINDOWS 10\VS_Projects\Gauntlet\Gauntlet.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         D:\WINDOWS 10\Visual Studio 2013\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt EnemyDemon.cpp EnemyGhost.cpp EnemyGrunt.cpp EnemyLobber.cpp EnemySorcerer.cpp EnemySpawn.cpp Game.cpp ModuleCollision.cpp ModuleEnemy.cpp ModuleMap.cpp ModuleParticles.cpp ModulePlayer.cpp Particle.cpp
+         Particle.cpp
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(11): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(15): warning C4244: 'inicializando' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(20): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\module.h(4): warning C4099: 'Collider' : nombre de tipo visto anteriormente usando 'class' ahora se ve usando 'struct'
+                 d:\windows 10\vs_projects\gauntlet\particle.h(10) : vea la declaración de 'Collider'
+     1>d:\windows 10\vs_projects\gauntlet\modulecollision.h(28): warning C4099: 'Collider' : nombre de tipo visto anteriormente usando 'class' ahora se ve usando 'struct'
+                 d:\windows 10\vs_projects\gauntlet\particle.h(10) : vea la declaración de 'Collider'
+     1>d:\windows 10\vs_projects\gauntlet\particle.cpp(21): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+         ModulePlayer.cpp
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(11): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(15): warning C4244: 'inicializando' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(20): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(53): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(54): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(67): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(68): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\particle.h(10): warning C4099: 'Collider' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 d:\windows 10\vs_projects\gauntlet\modulecollision.h(28) : vea la declaración de 'Collider'
+     1>d:\windows 10\vs_projects\gauntlet\moduleplayer.cpp(79): warning C4305: '=' : truncamiento de 'double' a 'float'
+     1>d:\windows 10\vs_projects\gauntlet\moduleplayer.cpp(118): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\moduleplayer.cpp(119): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\moduleplayer.cpp(205): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\moduleplayer.cpp(206): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\moduleplayer.cpp(208): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+         ModuleParticles.cpp
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(11): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(15): warning C4244: 'inicializando' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(20): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\particle.h(10): warning C4099: 'Collider' : nombre de tipo visto anteriormente usando 'struct' ahora se ve usando 'class'
+                 d:\windows 10\vs_projects\gauntlet\module.h(4) : vea la declaración de 'Collider'
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(53): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(54): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(67): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(68): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\moduleparticles.cpp(55): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\moduleparticles.cpp(65): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\moduleparticles.cpp(66): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\moduleparticles.cpp(87): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\moduleparticles.cpp(88): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+         ModuleMap.cpp
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(11): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(15): warning C4244: 'inicializando' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(20): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(53): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(54): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(67): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(68): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\modulemap.cpp(46): warning C4018: '<' : no coinciden signed/unsigned
+     1>d:\windows 10\vs_projects\gauntlet\modulemap.cpp(48): warning C4244: '=' : conversión de 'unsigned int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\modulemap.cpp(49): warning C4244: '=' : conversión de 'unsigned int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\modulemap.cpp(104): warning C4018: '<' : no coinciden signed/unsigned
+     1>d:\windows 10\vs_projects\gauntlet\modulemap.cpp(105): warning C4018: '<' : no coinciden signed/unsigned
+     1>d:\windows 10\vs_projects\gauntlet\modulemap.cpp(156): warning C4018: '>' : no coinciden signed/unsigned
+     1>d:\windows 10\vs_projects\gauntlet\modulemap.cpp(157): warning C4018: '>' : no coinciden signed/unsigned
+     1>d:\windows 10\vs_projects\gauntlet\modulemap.cpp(160): warning C4244: 'return' : conversión de 'std::_Uint4_t' a 'int8_t'; posible pérdida de datos
+         ModuleCollision.cpp
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(11): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(15): warning C4244: 'inicializando' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(20): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+         Game.cpp
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(11): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(15): warning C4244: 'inicializando' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(20): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(53): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(54): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(67): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(68): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+         EnemySpawn.cpp
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(11): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(15): warning C4244: 'inicializando' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(20): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(53): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(54): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(67): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(68): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+         EnemySorcerer.cpp
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(11): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(15): warning C4244: 'inicializando' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(20): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(53): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(54): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(67): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(68): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemysorcerer.cpp(7): warning C4244: 'argumento' : conversión de 'int' a 'float'; posible pérdida de datos
+         EnemyLobber.cpp
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(11): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(15): warning C4244: 'inicializando' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(20): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(53): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(54): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(67): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(68): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemylobber.cpp(7): warning C4244: 'argumento' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemylobber.cpp(74): warning C4305: '=' : truncamiento de 'double' a 'float'
+         EnemyGrunt.cpp
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(11): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(15): warning C4244: 'inicializando' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(20): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(53): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(54): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(67): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(68): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemygrunt.cpp(7): warning C4244: 'argumento' : conversión de 'int' a 'float'; posible pérdida de datos
+         EnemyGhost.cpp
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(11): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(15): warning C4244: 'inicializando' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(20): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(53): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(54): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(67): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(68): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemyghost.cpp(5): warning C4244: 'argumento' : conversión de 'int' a 'float'; posible pérdida de datos
+         EnemyDemon.cpp
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(11): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(15): warning C4244: 'inicializando' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(20): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(53): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(54): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(67): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(68): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(8): warning C4244: 'argumento' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(82): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(83): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(85): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(86): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(94): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(95): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(104): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(105): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(114): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(115): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(123): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(124): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(133): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(134): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(143): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(144): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(153): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(154): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+         Generando código...
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(164): warning C4756: desbordamiento en la aritmética de constante
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.cpp(164): warning C4756: desbordamiento en la aritmética de constante
+     1>d:\windows 10\vs_projects\gauntlet\enemygrunt.cpp(103): warning C4756: desbordamiento en la aritmética de constante
+     1>d:\windows 10\vs_projects\gauntlet\enemygrunt.cpp(103): warning C4756: desbordamiento en la aritmética de constante
+     1>d:\windows 10\vs_projects\gauntlet\enemylobber.cpp(109): warning C4756: desbordamiento en la aritmética de constante
+     1>d:\windows 10\vs_projects\gauntlet\enemylobber.cpp(109): warning C4756: desbordamiento en la aritmética de constante
+     1>d:\windows 10\vs_projects\gauntlet\enemysorcerer.cpp(105): warning C4756: desbordamiento en la aritmética de constante
+     1>d:\windows 10\vs_projects\gauntlet\enemysorcerer.cpp(105): warning C4756: desbordamiento en la aritmética de constante
+     1>d:\windows 10\vs_projects\gauntlet\enemyspawn.cpp(120): warning C4715: 'EnemySpawn::GetCurrentFrame' : no todas las rutas de acceso de control devuelven un valor
+         Compilando...
+         ModuleEnemy.cpp
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(11): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(15): warning C4244: 'inicializando' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\timer.h(20): warning C4244: '=' : conversión de 'Uint32' a 'float'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(53): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(54): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(67): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemy.h(68): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\enemygrunt.h(25): warning C4005: 'RELOAD_TIME' : redefinición de macro
+                 d:\windows 10\vs_projects\gauntlet\enemylobber.h(28) : vea la definición anterior de 'RELOAD_TIME'
+     1>d:\windows 10\vs_projects\gauntlet\enemydemon.h(35): warning C4005: 'RELOAD_TIME' : redefinición de macro
+                 d:\windows 10\vs_projects\gauntlet\enemygrunt.h(25) : vea la definición anterior de 'RELOAD_TIME'
+     1>d:\windows 10\vs_projects\gauntlet\enemysorcerer.h(28): warning C4005: 'RELOAD_TIME' : redefinición de macro
+                 d:\windows 10\vs_projects\gauntlet\enemydemon.h(35) : vea la definición anterior de 'RELOAD_TIME'
+     1>d:\windows 10\vs_projects\gauntlet\moduleenemy.cpp(92): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\windows 10\vs_projects\gauntlet\moduleenemy.cpp(94): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+         Generando código...
+       Link:
+         D:\WINDOWS 10\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\WINDOWS 10\VS_Projects\Gauntlet\Debug\Gauntlet.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\WINDOWS 10\VS_Projects\Gauntlet\Debug\Gauntlet.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\WINDOWS 10\VS_Projects\Gauntlet\Debug\Gauntlet.lib" /MACHINE:X86 Debug\EnemyDemon.obj
+         Debug\EnemyGhost.obj
+         Debug\EnemyGrunt.obj
+         Debug\EnemyLobber.obj
+         Debug\EnemySorcerer.obj
+         Debug\EnemySpawn.obj
+         Debug\Game.obj
+         Debug\Log.obj
+         Debug\Main.obj
+         Debug\ModuleAudio.obj
+         Debug\ModuleCollision.obj
+         Debug\ModuleEnemy.obj
+         Debug\ModuleInput.obj
+         Debug\ModuleMap.obj
+         Debug\ModuleMenu.obj
+         Debug\ModuleParticles.obj
+         Debug\ModulePlayer.obj
+         Debug\ModuleRender.obj
+         Debug\ModuleTextures.obj
+         Debug\ModuleWindow.obj
+         Debug\Particle.obj
+         Gauntlet.vcxproj -> D:\WINDOWS 10\VS_Projects\Gauntlet\Debug\Gauntlet.exe
+     1>Compilación del proyecto terminada "D:\WINDOWS 10\VS_Projects\Gauntlet\Gauntlet.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:07.54
