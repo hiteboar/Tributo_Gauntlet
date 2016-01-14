@@ -11,56 +11,56 @@ EnemySorcerer::EnemySorcerer(int health, int x, int y, Module* module) : Enemy(h
 	a_up.frames.push_back({ 0, 180, TILE_WIDTH, TILE_HEIGHT });
 	a_up.frames.push_back({ 0, 198, TILE_WIDTH, TILE_HEIGHT });
 	a_up.loop = true;
-	a_up.speed = 0.5;
+	a_up.speed = 0.2;
 
 	a_up_right.frames.push_back({ 18, 144, TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.frames.push_back({ 18, 162 , TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.frames.push_back({ 18, 180, TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.frames.push_back({ 18, 198, TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.loop = true;
-	a_up_right.speed = 0.5;
+	a_up_right.speed = 0.2;
 
 	a_right.frames.push_back({ 36, 144, TILE_WIDTH, TILE_HEIGHT });
 	a_right.frames.push_back({ 36, 162, TILE_WIDTH, TILE_HEIGHT });
 	a_right.frames.push_back({ 36, 180, TILE_WIDTH, TILE_HEIGHT });
 	a_right.frames.push_back({ 36, 198, TILE_WIDTH, TILE_HEIGHT });
 	a_right.loop = true;
-	a_right.speed = 0.5;
+	a_right.speed = 0.2;
 
 	a_down_right.frames.push_back({ 54, 144, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.frames.push_back({ 54, 162, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.frames.push_back({ 54, 180, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.frames.push_back({ 54, 198, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.loop = true;
-	a_down_right.speed = 0.5;
+	a_down_right.speed = 0.2;
 
 	a_down.frames.push_back({ 72, 144, TILE_WIDTH, TILE_HEIGHT });
 	a_down.frames.push_back({ 72, 162, TILE_WIDTH, TILE_HEIGHT });
 	a_down.frames.push_back({ 72, 180, TILE_WIDTH, TILE_HEIGHT });
 	a_down.frames.push_back({ 72, 198, TILE_WIDTH, TILE_HEIGHT });
 	a_down.loop = true;
-	a_down.speed = 0.5;
+	a_down.speed = 0.2;
 
 	a_down_left.frames.push_back({ 90, 144, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.frames.push_back({ 90, 162, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.frames.push_back({ 90, 180, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.frames.push_back({ 90, 198, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.loop = true;
-	a_down_left.speed = 0.5;
+	a_down_left.speed = 0.2;
 
 	a_left.frames.push_back({ 108, 144, TILE_WIDTH, TILE_HEIGHT });
 	a_left.frames.push_back({ 108, 162, TILE_WIDTH, TILE_HEIGHT });
 	a_left.frames.push_back({ 108, 180, TILE_WIDTH, TILE_HEIGHT });
 	a_left.frames.push_back({ 108, 198, TILE_WIDTH, TILE_HEIGHT });
 	a_left.loop = true;
-	a_left.speed = 0.5;
+	a_left.speed = 0.2;
 
 	a_up_left.frames.push_back({ 126, 144, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.frames.push_back({ 126, 162, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.frames.push_back({ 126, 180, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.frames.push_back({ 126, 198, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.loop = true;
-	a_up_left.speed = 0.5;
+	a_up_left.speed = 0.2;
 
 	attack.frames.push_back({ 234, 144, TILE_WIDTH, TILE_HEIGHT });
 	attack.frames.push_back({ 234, 162, TILE_WIDTH, TILE_HEIGHT });
@@ -69,7 +69,7 @@ EnemySorcerer::EnemySorcerer(int health, int x, int y, Module* module) : Enemy(h
 	attack.frames.push_back({ 234, 216, TILE_WIDTH, TILE_HEIGHT });
 	attack.frames.push_back({ 234, 234, TILE_WIDTH, TILE_HEIGHT });
 	attack.loop = false;
-	attack.speed = 2.0;
+	attack.speed = 0.8;
 
 	attack_fx = game->audio->LoadFx("Audio/SorcererAttack.wav");
 }

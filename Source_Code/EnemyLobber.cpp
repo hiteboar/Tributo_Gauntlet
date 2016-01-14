@@ -10,56 +10,56 @@ EnemyLobber::EnemyLobber(int health, int x, int y, Module* module) : Enemy (heal
 	a_up.frames.push_back({ 144, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_up.frames.push_back({ 144, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_up.loop = true;
-	a_up.speed = 0.5;
+	a_up.speed = 0.2;
 
 	a_up_right.frames.push_back({ 162, 72, TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.frames.push_back({ 162, 90, TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.frames.push_back({ 162, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.frames.push_back({ 162, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.loop = true;
-	a_up_right.speed = 0.5;
+	a_up_right.speed = 0.2;
 
 	a_right.frames.push_back({ 180, 72, TILE_WIDTH, TILE_HEIGHT });
 	a_right.frames.push_back({ 180, 90, TILE_WIDTH, TILE_HEIGHT });
 	a_right.frames.push_back({ 180, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_right.frames.push_back({ 180, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_right.loop = true;
-	a_right.speed = 0.5;
+	a_right.speed = 0.2;
 
 	a_down_right.frames.push_back({ 198, 72, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.frames.push_back({ 198, 90, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.frames.push_back({ 198, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.frames.push_back({ 198, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.loop = true;
-	a_down_right.speed = 0.5;
+	a_down_right.speed = 0.2;
 
 	a_down.frames.push_back({ 216, 72, TILE_WIDTH, TILE_HEIGHT });
 	a_down.frames.push_back({ 216, 90, TILE_WIDTH, TILE_HEIGHT });
 	a_down.frames.push_back({ 216, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_down.frames.push_back({ 216, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_down.loop = true;
-	a_down.speed = 0.5;
+	a_down.speed = 0.2;
 
 	a_down_left.frames.push_back({ 234, 72, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.frames.push_back({ 234, 90, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.frames.push_back({ 234, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.frames.push_back({ 234, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.loop = true;
-	a_down_left.speed = 0.5;
+	a_down_left.speed = 0.2;
 
 	a_left.frames.push_back({ 252, 72, TILE_WIDTH, TILE_HEIGHT });
 	a_left.frames.push_back({ 252, 90, TILE_WIDTH, TILE_HEIGHT });
 	a_left.frames.push_back({ 252, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_left.frames.push_back({ 252, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_left.loop = true;
-	a_left.speed = 0.5;
+	a_left.speed = 0.2;
 
 	a_up_left.frames.push_back({ 270, 72, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.frames.push_back({ 270, 90, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.frames.push_back({ 270, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.frames.push_back({ 270, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.loop = true;
-	a_up_left.speed = 0.5;
+	a_up_left.speed = 0.2;
 
 	rock_particle.frames.push_back({ 180, 216, TILE_WIDTH, TILE_HEIGHT });
 	rock_particle.frames.push_back({ 180, 198, TILE_WIDTH, TILE_HEIGHT });
@@ -71,7 +71,7 @@ EnemyLobber::EnemyLobber(int health, int x, int y, Module* module) : Enemy (heal
 	rock_particle.frames.push_back({ 180, 198, TILE_WIDTH, TILE_HEIGHT });
 	rock_particle.frames.push_back({ 180, 216, TILE_WIDTH, TILE_HEIGHT });
 	rock_particle.loop = false;
-	rock_particle.speed = 0.4;
+	rock_particle.speed = 0.2;
 
 	attack_fx = game->audio->LoadFx("Audio/LobberAttack.wav");
 
@@ -146,14 +146,6 @@ void EnemyLobber::Shot(){
 }
 
 void EnemyLobber::Continue(){
-	/*float dist_x = abs(game->player->pos.x - pos.x);
-	float dist_y = abs(game->player->pos.y - pos.y);
-
-	float dist = sqrt(powf(dist_x, 2) + powf(dist_y, 2));
-
-	bool run_away;
-	if (dist >= MIN_DISTANCE) run_away = false;
-	else run_away = true;*/
 
 	fPoint objective = CalculateObjectivePosition();
 
@@ -194,35 +186,35 @@ void EnemyLobber::ShotParticle(){
 	fPoint speed;
 	if (current_anim == &a_up) {
 		speed.x = 0;
-		speed.y = -SHOT_SPEED / 6;
+		speed.y = -SHOT_SPEED / 3;
 	}
 	else if (current_anim == &a_right){
-		speed.x = SHOT_SPEED / 6;
+		speed.x = SHOT_SPEED / 3;
 		speed.y = 0;
 	}
 	else if (current_anim == &a_up_right){
-		speed.x = SHOT_SPEED / 6;
-		speed.y = -SHOT_SPEED / 6;
+		speed.x = SHOT_SPEED / 3;
+		speed.y = -SHOT_SPEED / 3;
 	}
 	else if (current_anim == &a_down){
 		speed.x = 0;
-		speed.y = SHOT_SPEED / 6;
+		speed.y = SHOT_SPEED / 3;
 	}
 	else if (current_anim == &a_down_right){
-		speed.x = SHOT_SPEED / 6;
-		speed.y = SHOT_SPEED / 6;
+		speed.x = SHOT_SPEED / 3;
+		speed.y = SHOT_SPEED /3;
 	}
 	else if (current_anim == &a_left){
-		speed.x = -SHOT_SPEED / 6;
+		speed.x = -SHOT_SPEED / 3;
 		speed.y = 0;
 	}
 	else if (current_anim == &a_up_left){
-		speed.x = -SHOT_SPEED / 6;
-		speed.y = -SHOT_SPEED / 6;
+		speed.x = -SHOT_SPEED / 3;
+		speed.y = -SHOT_SPEED / 3;
 	}
 	else if (current_anim == &a_down_left){
-		speed.x = -SHOT_SPEED / 6;
-		speed.y = SHOT_SPEED / 6;
+		speed.x = -SHOT_SPEED / 3;
+		speed.y = SHOT_SPEED / 3;
 	}
 
 	game->particles->AddParticle(pos, speed, game->enemies->GetGraphics(), rock_particle,LOBBER_SHOT_COLLIDER, attack_fx);

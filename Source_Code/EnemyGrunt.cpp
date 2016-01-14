@@ -11,63 +11,63 @@ EnemyGrunt::EnemyGrunt(int health, int x, int y, Module* module) : Enemy(health,
 	a_up.frames.push_back({ 144, 36, TILE_WIDTH, TILE_HEIGHT });
 	a_up.frames.push_back({ 144, 54, TILE_WIDTH, TILE_HEIGHT });
 	a_up.loop = true;
-	a_up.speed = 0.5;
+	a_up.speed = 0.2;
 
 	a_up_right.frames.push_back({ 162, 0, TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.frames.push_back({ 162, 18, TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.frames.push_back({ 162, 36, TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.frames.push_back({ 162, 54, TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.loop = true;
-	a_up_right.speed = 0.5;
+	a_up_right.speed = 0.2;
 
 	a_right.frames.push_back({ 180, 0, TILE_WIDTH, TILE_HEIGHT });
 	a_right.frames.push_back({ 180, 18, TILE_WIDTH, TILE_HEIGHT });
 	a_right.frames.push_back({ 180, 36, TILE_WIDTH, TILE_HEIGHT });
 	a_right.frames.push_back({ 180, 54, TILE_WIDTH, TILE_HEIGHT });
 	a_right.loop = true;
-	a_right.speed = 0.5;
+	a_right.speed = 0.2;
 
 	a_down_right.frames.push_back({ 198, 0, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.frames.push_back({ 198, 18, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.frames.push_back({ 198, 36, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.frames.push_back({ 198, 54, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.loop = true;
-	a_down_right.speed = 0.5;
+	a_down_right.speed = 0.2;
 
 	a_down.frames.push_back({ 216, 0, TILE_WIDTH, TILE_HEIGHT });
 	a_down.frames.push_back({ 216, 18, TILE_WIDTH, TILE_HEIGHT });
 	a_down.frames.push_back({ 216, 36, TILE_WIDTH, TILE_HEIGHT });
 	a_down.frames.push_back({ 216, 54, TILE_WIDTH, TILE_HEIGHT });
 	a_down.loop = true;
-	a_down.speed = 0.5;
+	a_down.speed = 0.2;
 
 	a_down_left.frames.push_back({ 234, 0, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.frames.push_back({ 234, 18, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.frames.push_back({ 234, 36, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.frames.push_back({ 234, 54, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.loop = true;
-	a_down_left.speed = 0.5;
+	a_down_left.speed = 0.2;
 
 	a_left.frames.push_back({ 252, 0, TILE_WIDTH, TILE_HEIGHT });
 	a_left.frames.push_back({ 252, 18, TILE_WIDTH, TILE_HEIGHT });
 	a_left.frames.push_back({ 252, 36, TILE_WIDTH, TILE_HEIGHT });
 	a_left.frames.push_back({ 252, 54, TILE_WIDTH, TILE_HEIGHT });
 	a_left.loop = true;
-	a_left.speed = 0.5;
+	a_left.speed = 0.2;
 
 	a_up_left.frames.push_back({ 270, 0, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.frames.push_back({ 270, 18, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.frames.push_back({ 270, 36, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.frames.push_back({ 270, 54, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.loop = true;
-	a_up_left.speed = 0.5;
+	a_up_left.speed = 0.2;
 
 	attack.frames.push_back({ 216, 144, TILE_WIDTH, TILE_HEIGHT});
 	attack.frames.push_back({ 216, 144, TILE_WIDTH, TILE_HEIGHT });
 	attack.frames.push_back({ 216, 144, TILE_WIDTH, TILE_HEIGHT });
 	attack.frames.push_back({ 216, 144, TILE_WIDTH, TILE_HEIGHT });
 	attack.loop = false;
-	attack.speed = 2;
+	attack.speed = 0.8;
 
 	attack_fx = game->audio->LoadFx("Audio/GruntAttack.wav");
 }

@@ -34,7 +34,7 @@ public:
 	int score = 0;
 
 private:
-	float speed = 3;
+	float speed = 2;
 	Collider* collider;
 	_Uint4_t mov_flag;
 

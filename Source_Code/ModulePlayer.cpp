@@ -18,56 +18,56 @@ ModulePlayer::ModulePlayer(){
 	up.frames.push_back({ 0, 144, TILE_WIDTH, TILE_HEIGHT });
 	up.frames.push_back({ 0, 162, TILE_WIDTH, TILE_HEIGHT });
 	up.loop = true;
-	up.speed = 0.5;
+	up.speed = 0.2;
 
 	up_right.frames.push_back({ 18, 108, TILE_WIDTH, TILE_HEIGHT });
 	up_right.frames.push_back({ 18, 126, TILE_WIDTH, TILE_HEIGHT });
 	up_right.frames.push_back({ 18, 144, TILE_WIDTH, TILE_HEIGHT });
 	up_right.frames.push_back({ 18, 162, TILE_WIDTH, TILE_HEIGHT });
 	up_right.loop = true;
-	up_right.speed = 0.5;
+	up_right.speed = 0.2;
 
 	right.frames.push_back({ 36, 108, TILE_WIDTH, TILE_HEIGHT });
 	right.frames.push_back({ 36, 126, TILE_WIDTH, TILE_HEIGHT });
 	right.frames.push_back({ 36, 144, TILE_WIDTH, TILE_HEIGHT });
 	right.frames.push_back({ 36, 162, TILE_WIDTH, TILE_HEIGHT });
 	right.loop = true;
-	right.speed = 0.5;
+	right.speed = 0.2;
 
 	down_right.frames.push_back({ 54, 108, TILE_WIDTH, TILE_HEIGHT });
 	down_right.frames.push_back({ 54, 126, TILE_WIDTH, TILE_HEIGHT });
 	down_right.frames.push_back({ 54, 144, TILE_WIDTH, TILE_HEIGHT });
 	down_right.frames.push_back({ 54, 162, TILE_WIDTH, TILE_HEIGHT });
 	down_right.loop = true;
-	down_right.speed = 0.5; 
+	down_right.speed = 0.2; 
 
 	down.frames.push_back({ 72, 108, TILE_WIDTH, TILE_HEIGHT });
 	down.frames.push_back({ 72, 126, TILE_WIDTH, TILE_HEIGHT });
 	down.frames.push_back({ 72, 144, TILE_WIDTH, TILE_HEIGHT });
 	down.frames.push_back({ 72, 162, TILE_WIDTH, TILE_HEIGHT });
 	down.loop = true;
-	down.speed = 0.5;
+	down.speed = 0.2;
 
 	down_left.frames.push_back({ 90, 108, TILE_WIDTH, TILE_HEIGHT });
 	down_left.frames.push_back({ 90, 126, TILE_WIDTH, TILE_HEIGHT });
 	down_left.frames.push_back({ 90, 144, TILE_WIDTH, TILE_HEIGHT });
 	down_left.frames.push_back({ 90, 162, TILE_WIDTH, TILE_HEIGHT });
 	down_left.loop = true;
-	down_left.speed = 0.5;
+	down_left.speed = 0.2;
 
 	left.frames.push_back({ 108, 108, TILE_WIDTH, TILE_HEIGHT });
 	left.frames.push_back({ 108, 126, TILE_WIDTH, TILE_HEIGHT });
 	left.frames.push_back({ 108, 144, TILE_WIDTH, TILE_HEIGHT });
 	left.frames.push_back({ 108, 162, TILE_WIDTH, TILE_HEIGHT });
 	left.loop = true;
-	left.speed = 0.5;
+	left.speed = 0.2;
 
 	up_left.frames.push_back({ 126, 108, TILE_WIDTH, TILE_HEIGHT });
 	up_left.frames.push_back({ 126, 126, TILE_WIDTH, TILE_HEIGHT });
 	up_left.frames.push_back({ 126, 144, TILE_WIDTH, TILE_HEIGHT });
 	up_left.frames.push_back({ 126, 162, TILE_WIDTH, TILE_HEIGHT });
 	up_left.loop = true;
-	up_left.speed = 0.5;
+	up_left.speed = 0.2;
 
 	start.frames.push_back({ 252, 91, TILE_WIDTH, TILE_HEIGHT });
 	start.frames.push_back({ 252, 109, TILE_WIDTH, TILE_HEIGHT });

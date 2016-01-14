@@ -11,56 +11,56 @@ EnemyDemon::EnemyDemon(int health, int x, int y, Module* module) : Enemy(health,
 	a_up.frames.push_back({ 0, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_up.frames.push_back({ 0, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_up.loop = true;
-	a_up.speed = 0.5;
+	a_up.speed = 0.2;
 
 	a_up_right.frames.push_back({ 18, 72, TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.frames.push_back({ 18, 90, TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.frames.push_back({ 18, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.frames.push_back({ 18, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_up_right.loop = true;
-	a_up_right.speed = 0.5;
+	a_up_right.speed = 0.2;
 
 	a_right.frames.push_back({ 36, 72, TILE_WIDTH, TILE_HEIGHT });
 	a_right.frames.push_back({ 36, 90, TILE_WIDTH, TILE_HEIGHT });
 	a_right.frames.push_back({ 36, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_right.frames.push_back({ 36, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_right.loop = true;
-	a_right.speed = 0.5;
+	a_right.speed = 0.2;
 
 	a_down_right.frames.push_back({ 54, 72, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.frames.push_back({ 54, 90, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.frames.push_back({ 54, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.frames.push_back({ 54, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_down_right.loop = true;
-	a_down_right.speed = 0.5;
+	a_down_right.speed = 0.2;
 
 	a_down.frames.push_back({ 72, 72, TILE_WIDTH, TILE_HEIGHT });
 	a_down.frames.push_back({ 72, 90, TILE_WIDTH, TILE_HEIGHT });
 	a_down.frames.push_back({ 72, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_down.frames.push_back({ 72, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_down.loop = true;
-	a_down.speed = 0.5;
+	a_down.speed = 0.2;
 
 	a_down_left.frames.push_back({ 90, 72, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.frames.push_back({ 90, 90, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.frames.push_back({ 90, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.frames.push_back({ 90, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_down_left.loop = true;
-	a_down_left.speed = 0.5;
+	a_down_left.speed = 0.2;
 
 	a_left.frames.push_back({ 108, 72, TILE_WIDTH, TILE_HEIGHT });
 	a_left.frames.push_back({ 108, 90, TILE_WIDTH, TILE_HEIGHT });
 	a_left.frames.push_back({ 108, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_left.frames.push_back({ 108, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_left.loop = true;
-	a_left.speed = 0.5;
+	a_left.speed = 0.2;
 
 	a_up_left.frames.push_back({ 126, 72, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.frames.push_back({ 126, 90, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.frames.push_back({ 126, 108, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.frames.push_back({ 126, 126, TILE_WIDTH, TILE_HEIGHT });
 	a_up_left.loop = true;
-	a_up_left.speed = 0.5;
+	a_up_left.speed = 0.2;
 
 	shot_up.x = 198; shot_up.y = 144; shot_up.w = TILE_WIDTH; shot_up.h = TILE_HEIGHT;  
 	shot_up_left.x = 198; shot_up_left.y = 162; shot_up_left.w = TILE_WIDTH, shot_up_left.h = TILE_HEIGHT;

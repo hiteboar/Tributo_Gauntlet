@@ -38,7 +38,7 @@ if (x != nullptr)\
 #define TILE_MAP_HEIGHT 32
 #define GAME_NAME "GAUNTLET"
 
-#define SHOT_SPEED 15 
+#define SHOT_SPEED 6 
 
 #define TERRAINFILE_PATH "images/terrain.png"
 #define ENEMIESFILE_PATH "images/enemies.png"

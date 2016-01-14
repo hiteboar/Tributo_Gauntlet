@@ -45,7 +45,7 @@ public:
 	bool dead = false;
 	int right = 0, up = 0, left = 0, down = 0;
 	fPoint pos;
-	float speed = 2;
+	float speed = 1;
 	enemy_type type;
 
 	Enemy(int h, float x, float y, Module* module, enemy_type t){ 
@@ -69,13 +69,10 @@ public:
 	virtual ~Enemy(){};
 
 	void Move(){
-		if (ia_time.getTime() > 1000 / IA_SPEED_PER_SECOND){
-			int y = abs(game->player->pos.y - pos.y);
-			int x = abs(game->player->pos.x - pos.x);
-			if (y <= SCREEN_HEIGHT * 2 / 3 && x <= SCREEN_WIDTH / 2){
-				Continue();
-			}
-			ia_time.restart(); 
+		int y = abs(game->player->pos.y - pos.y);
+		int x = abs(game->player->pos.x - pos.x);
+		if (y <= SCREEN_HEIGHT * 2 / 3 && x <= SCREEN_WIDTH / 2){
+			Continue();
 		}
 	};
 	

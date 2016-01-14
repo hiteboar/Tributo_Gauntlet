@@ -1,4 +1,4 @@
-﻿Compilación iniciada a las 13/01/2016 20:06:29.
+﻿Compilación iniciada a las 14/01/2016 2:07:13.
      1>Proyecto "D:\WINDOWS 10\VS_Projects\Gauntlet\Gauntlet.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
          D:\WINDOWS 10\Visual Studio 2013\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
@@ -28,10 +28,9 @@
          Debug\ModuleTextures.obj
          Debug\ModuleWindow.obj
          Debug\Particle.obj
-     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: la biblioteca predeterminada'msvcrt.lib' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
          Gauntlet.vcxproj -> D:\WINDOWS 10\VS_Projects\Gauntlet\Debug\Gauntlet.exe
      1>Compilación del proyecto terminada "D:\WINDOWS 10\VS_Projects\Gauntlet\Gauntlet.vcxproj" (Build destinos).
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:01.34
+Tiempo transcurrido 00:00:01.21
