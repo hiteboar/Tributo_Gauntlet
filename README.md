@@ -1,9 +1,9 @@
-#Gauntlet Tribute#
+#Gauntlet Tribute
 
-####Name:####
+####Name:
 Francisco Bosch Matas
 
-####Description:####
+####Description:
 
 This is a tribute to Arcade Gauntlet, in it you will find only one level with some enemy spawn points. 
 There are 5 diferent types of enemeyes:
@@ -18,7 +18,7 @@ In order to complete the level, the player must destroy all the enemy spawn poin
 	  
 For every coin you put in the game, the player health increases in 750 points
 
-####Controls:####
+####Controls:
 Key | Action
 --- | -------
 W, A, S, D | move the character
